@@ -1,0 +1,25 @@
+
+/*
+ * Google fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/*
+ * Header Styles
+ */
+ @import './header.css';
+
+
+ 
+/*
+ * Footer Styles
+ */
+ .footer-content {
+   padding: 24px;
+   margin: 48px;
+   color: #666;
+   font-size: 12px;
+   background-color: rgb(245, 166, 166);
+ }

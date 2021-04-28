@@ -1,0 +1,14 @@
+/*
+ * Import other css files
+ */
+ @import './common.css';
+
+
+
+ /*
+ * Global styles
+ */
+
+ body {
+   background-color: cyan;
+ }
