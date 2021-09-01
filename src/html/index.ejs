@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +7,17 @@
   <title>Document</title>
 </head>
 <body>
-  
-  <%= require('./header.html') %>
 
-  <h1>Page 1</h1>
-  <h3>Content of page 1</h3>
-  <img src="assets/upload.png" width="150px">
 
-  <%= require('./footer.html') %>
+
+  <!-- <%= require('./header.ejs') %> -->
+
+    <h1>Home</h1>
+    <h3>Content of home page</h3>
+    <h3><%= htmlWebpackPlugin.options.test %></h3>
+
+    <%- require('./footer.ejs')({ test: htmlWebpackPlugin.options.test }) %>
+
 
 </body>
 </html>

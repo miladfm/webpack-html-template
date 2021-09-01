@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,16 +8,14 @@
   <title>Document</title>
 </head>
 <body>
+  
+  <%= require('./header.ejs') %>
 
+  <h1>Page 1</h1>
+  <h3>Content of page 1</h3>
+  <img src="../../upload.png" width="150px">
 
-
-  <%= require('./header.html') %>
-
-    <h1>Home</h1>
-    <h3>Content of home page</h3>
-
-    <%= require('./footer.html') %>
-
+  <%= require('./footer.ejs') %>
 
 </body>
 </html>
